@@ -1,7 +1,7 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #include "PhysSimGameMode.h"
-#include "PhysSimHUD.h"
+//#include "PhysSimHUD.h"
 #include "PhysSimCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -13,5 +13,5 @@ APhysSimGameMode::APhysSimGameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
-	HUDClass = APhysSimHUD::StaticClass();
+	//HUDClass = APhysSimHUD::StaticClass();
 }
